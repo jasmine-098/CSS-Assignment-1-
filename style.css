@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+}
+.sidebar{
+    height: 100%;
+    width: 26%;
+    background-color: #ffff33;
+    display: inline-block;
+    text-align: center;
+}
+.content{
+    max-height: 100%;
+    width: 76%;
+    background-color: #ffffff;
+    display: inline-block;
+    overflow: auto;
+}
+.cat img{
+width: 180px;
+height: 180px;
+margin: 10vh;
+padding: 0;
+border-radius: 50%;
+border: 5px solid #4d3900
+}
+
+.options{
+    display: block;
+    text-decoration: none;
+    color: #997300;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3%;
+}
+#about{
+   letter-spacing: 0.04em;
+   font-family: "Oswald", sans-serif;
+   font-size: 60px;
+   color: #2e2e1f;
+   text-align: left;
+   padding: 90px 50px 0px 70px;
+   }
+#about span{
+    color: #997300;
+}
+#email{
+    font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   color: #4d4d33 ;
+   text-align: left;
+   padding: 15px 50px 0px 110px;
+}
+#intro{
+    font-family: "Oswald", sans-serif;
+   font-size: 24px;
+   color: #4d4d33 ;
+   text-align: left;
+   line-height: 1.4em;
+   padding: 70px 30px 0px 90px;
+}
+.links{
+    font-size: 50px;
+    text-align: left;
+    letter-spacing: 0.2em;
+   padding: 70px 30px 60px 110px;
+   border-bottom: 1px solid black;
+}
+#experience{
+   letter-spacing: 0.04em;
+   font-family: "Oswald", sans-serif;
+   font-size: 45px;
+   color: #2e2e1f;
+   text-align: left;
+   padding: 110px 50px 0px 85px;
+}
+#date1{
+    font-family: "Oswald", sans-serif;
+   font-size: 30px;
+   color: #4d4d33 ;
+   text-align: left;
+   padding: 40px 50px 0px 86px;
+}
+
+#date1 span{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    padding: 0px 0px 0px 120px;
+}
+#heading1{
+    font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   color: #4d4d33 ;
+   text-align: left;
+   padding: 10px 45px 0px 83px;
+}
+#para1{
+    font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   color: #4d4d33 ;
+   text-align: left;
+   padding: 10px 45px 55px 83px;
+}
+#date2{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 40px 50px 0px 86px;
+}
+#date2 span{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    padding: 0px 0px 0px 120px;
+}
+#heading2{
+    font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   color: #4d4d33 ;
+   text-align: left;
+   padding: 10px 45px 0px 83px;
+}
+#para2{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 10px 45px 55px 83px;
+}
+#date3{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 40px 50px 0px 86px;
+}
+#date3 span{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    padding: 0px 0px 0px 120px;
+}
+#heading3{
+    font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   color: #4d4d33 ;
+   text-align: left;
+   padding: 10px 45px 0px 83px;
+}
+#para3{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 10px 45px 55px 83px;
+}
+#date4{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 40px 50px 0px 86px;
+}
+#date4 span{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    padding: 0px 0px 0px 120px;
+}
+#heading4{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 10px 45px 0px 83px;
+}
+#para4{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 10px 45px 55px 83px;
+    border-bottom: 1px solid black;
+}
+#education{
+    letter-spacing: 0.03em;
+   font-family: "Oswald", sans-serif;
+   font-size: 45px;
+   color: #2e2e1f;
+   text-align: left;
+   padding: 110px 50px 0px 85px;
+}
+#date5{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 40px 50px 0px 86px;
+}
+#heading5{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    padding:  10px 45px 0px 83px ;
+}
+#para5{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 10px 45px 55px 83px;
+}
+#date6{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 40px 50px 0px 86px;
+}
+#heading6{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    padding:  10px 45px 0px 83px 
+}
+#para6{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 10px 45px 55px 83px;
+    border-bottom: 1px solid black;
+}
+#skills{
+    letter-spacing: 0.03em;
+   font-family: "Oswald", sans-serif;
+   font-size: 45px;
+   color: #2e2e1f;
+   text-align: left;
+   padding: 110px 50px 0px 85px;
+}
+#date7{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #4d4d33 ;
+    text-align: left;
+    padding: 40px 50px 0px 86px;
+}
+#heading7{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #4d4d33 ;
+    padding: 40px 45px 0px 83px
+}
+.workflow{
+    font-family: "Oswald", sans-serif;
+   font-size: 22px;
+   color: #4d4d33 ;
+   text-align: left;
+   line-height: 1.4em;
+   padding: 10px 30px 55px 90px;
+   border-bottom: 1px solid black;
+}
+#interests{
+    letter-spacing: 0.03em;
+   font-family: "Oswald", sans-serif;
+   font-size: 45px;
+   color: #2e2e1f;
+   text-align: left;
+   padding: 110px 50px 0px 85px;
+}
+#para7{
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    color: #4d4d33 ;
+    text-align: left;
+    line-height: 1.4em;
+    padding: 45px 30px 55px 90px;
+    border-bottom: 1px solid black;
+}
+#awards{
+    letter-spacing: 0.03em;
+    font-family: "Oswald", sans-serif;
+    font-size: 45px;
+    color: #2e2e1f;
+    text-align: left;
+    padding: 110px 50px 0px 85px;
+}
+.awards{
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    color: #4d4d33 ;
+    text-align: left;
+    line-height: 1.4em;
+    padding: 45px 30px 55px 90px;
+    border-bottom: 1px solid black;
+}
